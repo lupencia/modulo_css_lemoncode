@@ -1,0 +1,37 @@
+
+$colored: red;
+$colorgreen: green;
+$colorblue: blue;
+
+.box {
+  border: 1px solid grey;
+  width: 50px;
+  height: 100px;
+  display: inline-block;
+
+  &.red {
+    background-color: $colored;
+  }
+
+  &.green {
+    background-color: $colorgreen;
+  }
+  
+  &.green {
+    background-color: $colorblue;
+  }
+  
+}
+
+
+@for $i from 20 through 80 {
+  @if $i % 10 == 0 {
+    $percentage: $i*1%;
+    .darken-#{$i} {
+      background-color: darken($colored, $percentage);
+    }
+    .lighten-#{$i} {
+      background-color: lighten($colored, $percentage);
+    }
+  }
+}

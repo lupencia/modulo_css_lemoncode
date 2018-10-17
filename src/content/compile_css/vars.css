@@ -1,0 +1,53 @@
+.box {
+  border: 1px solid grey;
+  width: 50px;
+  height: 100px;
+  display: inline-block; }
+  .box.red {
+    background-color: red; }
+  .box.green {
+    background-color: green; }
+  .box.green {
+    background-color: blue; }
+
+.darken-20 {
+  background-color: #990000; }
+
+.lighten-20 {
+  background-color: #ff6666; }
+
+.darken-30 {
+  background-color: #660000; }
+
+.lighten-30 {
+  background-color: #ff9999; }
+
+.darken-40 {
+  background-color: #330000; }
+
+.lighten-40 {
+  background-color: #ffcccc; }
+
+.darken-50 {
+  background-color: black; }
+
+.lighten-50 {
+  background-color: white; }
+
+.darken-60 {
+  background-color: black; }
+
+.lighten-60 {
+  background-color: white; }
+
+.darken-70 {
+  background-color: black; }
+
+.lighten-70 {
+  background-color: white; }
+
+.darken-80 {
+  background-color: black; }
+
+.lighten-80 {
+  background-color: white; }
