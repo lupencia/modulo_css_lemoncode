@@ -1,53 +1,90 @@
-.box {
-  border: 1px solid grey;
-  width: 50px;
-  height: 100px;
-  display: inline-block; }
-  .box.red {
-    background-color: red; }
-  .box.green {
-    background-color: green; }
-  .box.green {
-    background-color: blue; }
+body {
+  max-width: 960px;
+  width: 100%;
+  margin: auto; }
 
-.darken-20 {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+div {
+  display: block; }
+  div .box1,
+  div .box2,
+  div .box3 {
+    width: 50px;
+    height: 100px;
+    display: inline-block; }
+
+.darken-red-$i {
+  background-color: #cc0000; }
+
+.lighten-red-$i {
+  background-color: #ff3333; }
+
+.darken-red-$i {
   background-color: #990000; }
 
-.lighten-20 {
+.lighten-red-$i {
   background-color: #ff6666; }
 
-.darken-30 {
+.darken-red-$i {
   background-color: #660000; }
 
-.lighten-30 {
+.lighten-red-$i {
   background-color: #ff9999; }
 
-.darken-40 {
+.darken-red-$i {
   background-color: #330000; }
 
-.lighten-40 {
+.lighten-red-$i {
   background-color: #ffcccc; }
 
-.darken-50 {
-  background-color: black; }
+.darken-green-$i {
+  background-color: #00cc00; }
 
-.lighten-50 {
-  background-color: white; }
+.lighten-green-$i {
+  background-color: #33ff33; }
 
-.darken-60 {
-  background-color: black; }
+.darken-green-$i {
+  background-color: #009900; }
 
-.lighten-60 {
-  background-color: white; }
+.lighten-green-$i {
+  background-color: #66ff66; }
 
-.darken-70 {
-  background-color: black; }
+.darken-green-$i {
+  background-color: #006600; }
 
-.lighten-70 {
-  background-color: white; }
+.lighten-green-$i {
+  background-color: #99ff99; }
 
-.darken-80 {
-  background-color: black; }
+.darken-green-$i {
+  background-color: #003300; }
 
-.lighten-80 {
-  background-color: white; }
+.lighten-green-$i {
+  background-color: #ccffcc; }
+
+.darken-blue-$i {
+  background-color: #0000cc; }
+
+.lighten-blue-$i {
+  background-color: #3333ff; }
+
+.darken-blue-$i {
+  background-color: #000099; }
+
+.lighten-blue-$i {
+  background-color: #6666ff; }
+
+.darken-blue-$i {
+  background-color: #000066; }
+
+.lighten-blue-$i {
+  background-color: #9999ff; }
+
+.darken-blue-$i {
+  background-color: #000033; }
+
+.lighten-blue-$i {
+  background-color: #ccccff; }
